@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [artcc]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.bank.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="software(failed)">
+    <classes>
+      <class name="com.back.testcases.TC_CLA_001">
+        <methods>
+          <include name="logii"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.back.testcases.TC_CLA_001 -->
+    </classes>
+  </test> <!-- software(failed) -->
+</suite> <!-- Failed suite [artcc] -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SW">
+    <test name="test">
+    <parameter name="browser" value="firefox "/>
+    <classes>
+    <class name="com.back.testcases.TC_01_login1" />
+    </classes>
+    </test>
+</suite>
